@@ -61,8 +61,8 @@ group :development, :test do
   # Database
   gem 'pg'
   # Linting
-  gem 'rubocop'
-  gem 'rubocop-rails'
+  gem 'rubocop', '~> 1.25', '>= 1.25.1'
+  gem 'rubocop-rails', '~> 2.13', '>= 2.13.2'
 end
 
 group :development do
